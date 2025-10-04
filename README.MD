@@ -2,4 +2,4 @@
 venv\Scripts\Activate.ps1
 
 ## Build code to executable file
-pyinstaller --onefile --windowed --icon=C:\Users\Dusti\Documents\development\padlock.ico main.py
+pyinstaller app.py --onefile --windowed --add-data "index.html;." --add-data "script.js;."
