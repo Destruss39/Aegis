@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pywebview Demo</title>
+    <meta charset="UTF-8">
+    <title>File Processor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Python-JavaScript Communication</h1>
-    <p id="response-text">Waiting for a message from Python...</p>
-    <button onclick="callPython()">Say Hello to Python</button>
+    <div class="container">
+        <h1>Aegis</h1>
+
+        <div class="form-group">
+            <label for="masterkey">Master Key</label>
+            <input type="text" id="masterkey" placeholder="Enter your master key">
+        </div>
+
+        <div class="button-group">
+            <button id="encryptBtn">Encrypt</button>
+            <button id="decryptBtn">Decrypt</button>
+        </div>
+
+        <div class="response-area">
+            <p id="response-text"></p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
