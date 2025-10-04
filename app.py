@@ -200,7 +200,7 @@ if __name__ == '__main__':
     screen_height = user32.GetSystemMetrics(1)
 
     # Set window dimensions
-    window_width = 700
+    window_width = 625
     window_height = 500
 
     # Calculate centered position
