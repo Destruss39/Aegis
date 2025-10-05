@@ -104,3 +104,11 @@ h1 {
     color: #cccccc; /* Slightly dimmer text color */
     border: 1px solid #444; /* Subtle border to define the area */
 }
+
+#masterkey {
+    color: rgb(255, 255, 255);
+    background: rgb(43, 43, 43);
+}
+::-ms-reveal {
+    filter: invert(100%);
+}
